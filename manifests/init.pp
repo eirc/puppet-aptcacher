@@ -36,6 +36,5 @@
 # Copyright 2011 Your name here, unless otherwise noted.
 #
 class aptcacher {
-
-
+    include aptcacher::params, aptcacher::install, aptcacher::config, aptcacher::service
 }
