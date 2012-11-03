@@ -1,5 +1,5 @@
 name    'eirc-aptcacher'
-version '0.0.1'
+version '0.0.2'
 source 'UNKNOWN'
 author 'eirc'
 license 'Apache License, Version 2.0'
