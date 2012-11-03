@@ -1,6 +1,7 @@
 aptcacher
+=========
 
-This is the aptcacher module.
+Install and manage an apt cacher server via puppet. Uses apache to serve the cache over HTTP.
 
 License
 -------
