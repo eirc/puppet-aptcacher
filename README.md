@@ -1,7 +1,7 @@
 aptcacher
 =========
 
-Install and manage an apt cacher server via puppet. Uses apache to serve the cache over HTTP.
+Install and manage an apt cacher server via puppet.
 
 License
 -------

@@ -8,7 +8,6 @@ class aptcacher::params {
 
             $webserver_package_name = 'apache2'
             $webserver_service_name = 'apache2'
-            $webserver_config_file = '/etc/apt-cacher/apache.conf'
         }
     }
 }
