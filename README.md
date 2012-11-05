@@ -1,12 +1,24 @@
 aptcacher
 =========
 
-Install and manage an apt cacher server via puppet.
+Install and manage apt cacher servers and clients via puppet.
+
+Server
+------
 
     node apt-server {
       aptcacher::conf { 'config':
         ensure => present,
         source => 'puppet:///files/aptcacher/config',
+      }
+    }
+
+Client
+------
+
+    node apt-client {
+      aptcacher::client { 'client':
+        server => 'http://apt-server:3142',
       }
     }
 
