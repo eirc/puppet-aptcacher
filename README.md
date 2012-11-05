@@ -3,6 +3,13 @@ aptcacher
 
 Install and manage an apt cacher server via puppet.
 
+    node apt-server {
+      aptcacher::conf { 'config':
+        ensure => present,
+        source => 'puppet:///files/aptcacher/config',
+      }
+    }
+
 License
 -------
 
